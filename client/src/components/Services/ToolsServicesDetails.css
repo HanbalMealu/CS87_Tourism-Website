@@ -1,0 +1,235 @@
+.imageBannerTools{
+    background-image: url("https://www.touritesafaris.com/wp-content/uploads/2017/09/Travel-Outfit-Eagle-Creek.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.imageBannerTools h1{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 82%;
+  padding: 20px 2px;
+  text-align: center;
+}
+.About{
+    text-align: justify;
+    color: rgb(41, 29, 29);
+    padding: 10px 10px;
+    border: 4px solid rgb(77, 71, 71);
+}
+
+.About h2{
+    text-align: center;
+    color: rgb(77, 71, 71);
+}
+
+.userProfile{
+    width: 100%;
+    border: 4px solid rgb(77, 71, 71);
+    padding: 15px 15px;
+    height: 100%;
+}
+.contactFlex {
+    position: relative;
+  }
+  
+ .chatNow{
+     width:100%;
+ }
+  .contactFlex img {
+      vertical-align: middle;
+      width: 100%;
+    }
+  
+  .contactFlex .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.tripProfile{
+    width: 100%;
+    border: 4px solid rgb(77, 71, 71);
+    padding: 15px 15px;
+    height: 100%;
+}
+.tripProfile p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.userProfile h7{
+    text-align: center;
+}
+.tripProfile h4{
+    background-color: rgb(77, 71, 71);
+    color: white;
+    text-align: center;
+}
+.chatNow{
+    background-color: blueviolet;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border: 4px solid blueviolet;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.chatNow:hover{
+    background-color: white;
+    border-top: 4px solid transparent;
+    border-right: hidden;
+    border-left: hidden;
+    color: blueviolet;
+    transition: ease-out 0.5s ;
+}
+
+
+.carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+	opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }

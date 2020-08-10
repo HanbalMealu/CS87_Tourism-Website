@@ -1,0 +1,175 @@
+.sidebarAdmin {
+    width: 100%;
+    background-color: rgb(97, 94, 99);
+    padding-bottom: 100%;
+}
+  
+  .sidebarAdmin a {
+    padding: 15px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+  
+  .sidebarAdmin a:hover,.sidebarAdmin a:active{
+    color: white;
+    background-color: rgb(77, 71, 71);
+}
+
+
+
+/*USER PAGES*/
+.userInfoSection{
+  border-bottom: 1px solid rgb(215, 224, 224);
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  margin-left: 0%;
+  width: 100%;
+}
+.userDp img{
+  height: 130px;
+  width: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+  
+}
+
+.userPageName h6{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 170px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+.userPageInfo{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Arimo', sans-serif;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.userInfoSection h5{
+  display: inline;
+}
+
+.userReviewSection h6{
+  display: inline;
+  color: rgb(31, 29, 29);
+  font-size: larger;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+}
+
+.reviewBox{
+  font-family: 'Arimo', sans-serif;
+  font-size: xx-small;
+  margin: 15px;
+  padding: 5px 5px;
+}
+.reviewBox img{
+  width:50px;
+  height:50px;
+
+}
+.reviewBox p{
+  font-family: 'Arimo', sans-serif;
+  font-size: xx-small;
+  color: rgb(161, 150, 150);
+  font-stretch: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.reviewBox h6{
+  display: inline;
+  color: rgb(61, 56, 56);
+  font-size: small;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+}
+@media only screen and (min-width: 600px) {
+  .userInfoSection{
+    margin-left: -15%;
+    border: 1px solid rgb(215, 224, 224);
+     
+  }
+  .userReviewSection h6{
+    display: inline;
+    color: rgb(31, 29, 29);
+    font-size: larger;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+  }
+  
+  .reviewBox{
+    font-family: 'Arimo', sans-serif;
+    font-size: xx-small;
+    margin: 15px;
+    padding: 5px 5px;
+  }
+  .reviewBox img{
+    width:50px;
+    height:50px;
+
+  }
+  .reviewBox p{
+    font-family: 'Arimo', sans-serif;
+    font-size: xx-small;
+    color: rgb(161, 150, 150);
+    font-stretch: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  .reviewBox h6{
+    display: inline;
+    color: rgb(61, 56, 56);
+    font-size: small;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+  }
+  .userReviewSection{
+    font-size: smaller;
+    color: rgb(99, 99, 77);
+    margin: 30px;
+  }
+  .userDp img{
+    margin-left: 110px;
+    
+  }
+  .userPageName h6{
+    margin-left: 105px;
+  }
+}
+.fa-phone,.fa-envelope,.fa-map-marker-alt{
+  color: brown;
+}
+
+.fa-envelope-open{
+  color: rgb(216, 219, 208)
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+}
+
+.topnav a:hover {
+  background-color: rgb(27, 26, 26);
+  transition: all 0.2s ease;
+}
+

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.lineTITLE{
+    border-bottom: 1px solid rgba(160, 118, 202,0.2);
+    margin-top: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.webBanner{
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/895.jpg");
+    min-height: 510px; 
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+}
+.bannerButtons p{
+    color: rgb(53, 30, 30);
+    letter-spacing: 5px;
+    filter: brightness(550%);
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 50px;
+}
+.bannerButtons button{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+}
+.webBanner1{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 15px 5px 15px;
+}
+.webBanner1:hover{
+    background-color: brown;
+    color: white;
+    border: 2px solid brown;
+    transition: all 0.8s ease;
+}
+.lineFull{
+    border-bottom: 1px solid rgba(160, 118, 202,0.2);
+}
+
+.bodyLand{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.landingTitle{
+    color: rgb(160, 118, 202);
+    font-family: 'Acme', sans-serif;
+    margin-top: 10px;
+    border-top: 4px solid rgb(160, 118, 202);
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+.footerBackground{
+  background-color: rgb(6, 2, 27);
+}
+.bodyFooter{
+  font-family: 'Hind', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+.fa-map-marker-alt,.fa-phone{
+  color: white;
+  margin-right: 2px;
+}
+
+.bodyFooter h5{
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.bodyFooter p{
+  color: rgb(231, 216, 216);
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+}
+.firstCol h5{
+  font-family: 'Caveat Brush', cursive;
+  font-size: larger;
+}
+.firstCol a{
+  font-size: xx-large;
+}
+.firstCol,.secondCol{
+  text-align: center;
+}
+.joinNow{
+  background-color: transparent;
+  border: 1px solid brown;
+  color: hsl(81, 85%, 49%);
+  padding: 5px 20px 5px 20px;
+  margin-top: 20px;
+}
+.joinNow:hover{
+  transition: all 0.3s ease-out;
+  background-color: brown;
+  border: 1px solid brown;
+}
+.firstCol p,.secondCol p,.thirdCol p {
+  text-align: center;
+}
+.fa-whatsapp,.fa-instagram,.fa-facebook-f{
+  text-align: center;
+  color: white;
+  filter: brightness(150%);
+  font-size: 32px;
+}
+
+.fa-whatsapp:hover{
+  color: #4FCE5D;
+}
+.fa-instagram:hover{
+  color: #ffc838;
+}
+.fa-facebook-f:hover{
+  color: #3b5998;
+}
+.thirdCol p:hover{
+  color: white;
+  cursor: pointer;
+}

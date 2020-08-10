@@ -1,0 +1,10 @@
+.lineTITLE{
+    border-bottom: 1px solid rgba(160, 118, 202,0.2);
+    margin-top: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.lineFull{
+    border-bottom: 1px dotted rgba(160, 118, 202,0.2);
+}
